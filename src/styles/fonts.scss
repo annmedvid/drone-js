@@ -1,0 +1,25 @@
+@font-face {
+  	font-family: 'Bevan';
+  	src: url('../assets/fonts/bevan.ttf') format('truetype');
+}
+
+@font-face {
+  	font-family: 'Open Sans L';
+  	src: url('../assets/fonts/open-sans-light.ttf') format('truetype');
+}
+
+@font-face {
+  	font-family: 'Open Sans R';
+  	src: url('../assets/fonts/open-sans-regular.ttf') format('truetype');
+}
+
+$paragraph-family: 'Open Sans L', Arial, Helvetica, sans-serif !default;
+$heading-family: "Bevan", Arial, Helvetica, sans-serif !default;
+
+body {
+  	font-family: $paragraph-family;
+}
+
+h1, button {
+  	font-family: $heading-family;
+}

@@ -1,0 +1,24 @@
+{
+    "name": "drone-js",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://annmedvid.github.io/drone-js",
+    "dependencies": {
+        "custom-react-scripts": "0.2.1",
+        "gh-pages": "^1.0.0",
+        "prop-types": "^15.6.0",
+        "react": "^16.1.1",
+        "react-dom": "^16.1.1",
+        "react-redux": "^5.0.6",
+        "redux": "^3.7.2",
+        "redux-saga": "^0.16.0"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}
